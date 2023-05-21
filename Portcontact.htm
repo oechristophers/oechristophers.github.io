@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/brands.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/solid.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/fontawesome.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+  background: linear-gradient(to right,#15a32d, black 30% );
+  width: 100%;
+  overflow-x: hidden;
+  font-family: monospace ;
+  color: white;
+}
+
+header,main,.container{
+    border: 2px red;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;
+}
+
+img{
+    height: 60vh;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a i{
+    font-size: 0.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.75em;
+    border: 0;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.187);
+}
+
+.about-header,.contact-header,.works-header{
+    text-align: center; width: 100%; margin-left: 20px;
+    font-family:  'Courier New', Courier, monospace
+}
+
+ h1 strong{
+   color: rgba(255, 255, 255, 0.671)
+}
+
+.contact-header h2{
+    margin-left: 485px;
+
+   }
+   .contact-header h1{
+    font-size: 5rem;
+    margin-left: -10px;
+
+   }
+   .contact{
+    height: 100vh;
+   }
+
+   .contact-container{
+    display: flex; 
+    margin-left: 145px;
+    margin-top: -50px;
+   }
+
+   .contact p{
+    width: 40ch;
+    color: white; 
+    font-size: 0.8rem;
+   }
+
+   .left-con h2{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+
+   }
+
+    form input[type="email"],[type="text"],[type="subject"]{
+       background-color: rgba(38, 37, 37, 0.71);
+       border: 1px solid rgba(0, 0, 0, 0.2);
+       width: 150px;
+       border-radius: 15px;
+       height: 30px;
+       margin-left: 20px;
+      
+
+      }
+
+
+      textarea{
+         background-color: rgba(38, 37, 37, 0.71);
+       border: 1px solid rgba(0, 0, 0, 0.2);
+       width: 540px;
+       border-radius: 15px;
+       height: 150px;
+       margin-top: 20px;
+       color:#0000007a
+      }
+
+      form{
+         display: flex;
+         flex-wrap: wrap;
+         width: 550px;
+         margin-top: 30px;
+         margin-left: 20px;
+      }
+
+       form input[type="submit"] {
+       color: #fff;
+    }
+
+    p i{
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.4em;
+    color: black;
+    background-color: white;
+}
+
+    .social-leftcon ol{
+        list-style-type: none;
+         display: flex;
+         margin-top: 10px;
+    }
+
+    .social-leftcon ol i{
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid;
+    margin-left: -15px;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.4em;
+    color: black;
+    background-color: white;
+    }
+
+    .left-con{
+        margin-left: -20px;
+    }
+
+    .right-con{
+        margin-left: 30px;
+    }
+
+ 
+
+
+.about-header h1,.contact-header h1,.works-header h1{
+    position: relative;
+    font-size: 5.5rem;opacity: 0.18;
+    color: rgba(255, 255, 255, 0.646)
+
+}
+.about-header h2,.contact-header h2,.works-header h2{
+    position: absolute; 
+    margin-left: 510px;
+    margin-top: -70px;font-size: 2.5rem;
+
+}
+
+h2 strong{
+    color: #10c82fcb;
+} 
+
+button, input[type="submit"]{
+    text-align: center; 
+    margin-top: 50px;
+    width: 130px;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    background: #00000099;
+    border: 3px solid #15a32d;
+    padding: 10px 23px;
+    border-radius: 9999px;
+    animation: button cubic-bezier(0.280, 0.840, 0.420, 1);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+@keyframes button {
+0%   { transform: scale(1,1)      translateY(0); }
+10%  { transform: scale(1.1,.9)   translateY(0); }
+30%  { transform: scale(.9,1.1)   translateY(-20px); }
+50%  { transform: scale(1.05,.95) translateY(0); }
+57%  { transform: scale(1,1)      translateY(-7px); }
+64%  { transform: scale(1,1)      translateY(0); }
+100% { transform: scale(1,1)      translateY(0); }
+}
+
+nav li{
+    margin: 20px;
+  }
+
+.nav{
+    margin-top: -5px;
+    margin-left:25px;
+    transition: ease all 500ms;
+}
+
+   .nav:hover{
+            margin-top: -30px;
+         }
+
+         li i:hover{
+            background-color: #15a32d;
+            color: white;
+         }
+
+
+    </style>
+</head>
+<body>
+    <section class="contact">
+        <header class="contact-header">
+            <h1>CON<strong>TACT</strong></h1>
+            <h2>REACH <strong>OUT</strong></h2>
+        </header>
+
+        <main class="contact-container">
+            <article class="left-con">
+                <h2>DONT BE SHY!</h2>
+                <P style="color: #fafcffc0;"> Feel free to get in touch with me for new project discussions,creative ideas, and any opportunities to be a part of your vision</P>
+
+                <p style="line-height: 0; margin-top: 20px;color: #fafcffa4;"><i class="fa-regular fa-envelope-open" style="background: transparent; border: 0; color: rgb(18, 213, 18);"></i> Mail me</p>
+               <p style="line-height: 0;font-weight: 800;">&nbsp;&nbsp;&nbsp; oechristophers2020@gmail.com</p>  
+               
+               <p style="line-height: 0;margin-top: 20px;color: #fafcffa4;"><i class="fa-regular fa-square-phone"style="background: transparent; border: 0; color: rgb(18, 213, 18);"></i>Call me</p>
+               <p style="line-height: 0;font-weight: 800;">&nbsp;&nbsp;&nbsp; +234 816-060-1064</p> 
+
+               <nav class="social-leftcon">
+                <ol>
+                    <li><i class="fa-brands fa-facebook-f"></i></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ol>
+            </nav>
+            </article>
+            </article>
+
+               
+
+            <article class="right-con">
+              <form action="#">
+                <input type="text" placeholder="  Name">
+                <input type="email" placeholder="  Email">
+                <input type="subject" placeholder="  Subject">
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Send">
+              </form>
+            </article>
+
+            <div class="nav">
+                <nav>
+                    <ol style="list-style-type: none; ">
+                        <li><a href="./index.html" >
+                            <i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="./Portabout.htm">
+                            <i class="fa-solid fa-user"></i>
+                        </a></li>
+                        <li><a href="./Portworks.htm">
+                            <i class="fa-solid fa-briefcase" ></i>
+                        </a></li>
+                        <li><a href="./Portcontact.htm">
+                            <i class="fa-solid fa-envelope-open"></i>
+                        </a></li>
+                        <li><a href="./Portblog.htm">
+                            <i class="fa-solid fa-comments" ></i>
+                        </a></li>
+                       
+                    </ol>
+                </nav>
+             </div>
+        </main>
+     </section>
+
+
+</body>
+</html>

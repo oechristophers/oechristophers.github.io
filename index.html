@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/brands.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/solid.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/fontawesome.css">
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+  background: linear-gradient(to right,#15a32d, black 30% );
+  width: 100%;
+  font-family: monospace ;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header,main,.container{
+    border: 2px red;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;
+}
+
+img{
+    height: 60vh;
+}
+
+a i{
+    font-size: 0.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.75em;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.187);
+}
+
+button, input[type="submit"]{
+    text-align: center; 
+    margin-top: 50px;
+    width: 130px;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    background: #00000099;
+    border: 3px solid #15a32d;
+    padding: 10px 23px;
+    border-radius: 9999px;
+    animation: button cubic-bezier(0.280, 0.840, 0.420, 1);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+@keyframes button {
+0%   { transform: scale(1,1)      translateY(0); }
+10%  { transform: scale(1.1,.9)   translateY(0); }
+30%  { transform: scale(.9,1.1)   translateY(-20px); }
+50%  { transform: scale(1.05,.95) translateY(0); }
+57%  { transform: scale(1,1)      translateY(-7px); }
+64%  { transform: scale(1,1)      translateY(0); }
+100% { transform: scale(1,1)      translateY(0); }
+}
+
+.intro{
+    display: flex;
+}
+
+.intro .container{
+    display: flex;
+    font-size: 1.1rem;
+    margin-top: 80px;
+}
+
+.intro-text{
+    width: 55ch;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.intro p, .intro h2{
+   color: rgba(255, 255, 255, 0.724);
+}
+
+.nav{
+       background-color:rgba(255, 255, 255, 0.032);
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 90px;
+        border-bottom-right-radius: 90px;
+         transition: all ease 500ms;
+        }
+
+    
+    nav{ 
+        width: 150px;
+        padding-top: 100px;
+        margin-left:-25px; 
+    }
+
+    nav li{ 
+        margin: 15px; 
+        text-align: center; 
+        padding-top: 3px;  
+      }
+
+    ol li{
+        transition: all 500ms ease;
+    }
+
+    .nav:hover{  
+        margin-top: 10px; 
+        margin-bottom: 10px;
+         }
+
+         li i:hover{
+            background-color: #15a32d;
+            color: white;
+         }
+
+         button:hover{
+            animation: none;
+            background-color: #15a32d;
+         }
+
+         .photo{position: relative;}
+    
+         .photo-hover{
+              position: absolute;
+              top: 0;
+              left: 1.2px;
+              opacity: 0;
+              transition: opacity 400ms linear;
+    }
+
+    .photo-hover:hover{
+        opacity: 1;
+    }
+
+    </style>
+</head>
+<body>
+    <main class="intro">
+
+        <div class="container">
+            <div class="photo"> <img src="./Assets/image/picapic.JPEG" alt="">
+          <img class="photo-hover" src="./Assets/image/IMG_1027.JPEG" alt="">
+        </div>
+         
+          <div class="intro-text">
+          <h2>HI THERE!</h2>
+          <h1>I'M <strong style="color: #15a32d; margin-left: -5px;">EKENE OGBUANU</strong> </h1>
+          <P>I'm a Nigerian based web designer and front-end developer focused on crafting clean and user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me. </P>
+          <button><a> Text Me/></a></button>
+       </div>
+    </div>
+
+    <div  class="nav">
+        <nav>
+            <ol style="list-style-type: none; ">
+                <li><a href="./index.html">
+                    <i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="./Portabout.htm" >
+                    <i class="fa-solid fa-user"></i>
+                </a></li>
+                <li><a href="./Portworks.htm" >
+                    <i class="fa-solid fa-briefcase" ></i>
+                </a></li>
+                <li><a href="./Portcontact.htm">
+                    <i class="fa-solid fa-envelope-open"></i>
+                </a></li>
+                <li><a href="./Portblog.htm">
+                    <i class="fa-solid fa-comments" ></i>
+                </a></li>
+               
+            </ol>
+        </nav>
+     </div>
+</main>
+</body>
+</html>

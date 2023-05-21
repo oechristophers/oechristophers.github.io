@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/brands.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/solid.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/fontawesome.css">
+    <style>
+
+               
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+  background: linear-gradient(to right,#15a32d, black 30% );
+  width: 100%;
+  overflow-x: hidden;
+  font-family: monospace ;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header,main,.container{
+    border: 2px red;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.about-header,.contact-header,.works-header{
+    text-align: center; width: 100%; margin-left: 20px;
+    font-family:  'Courier New', Courier, monospace
+}
+
+ h1 strong{
+   color: rgba(255, 255, 255, 0.671)
+}
+
+
+.about-header h1,.contact-header h1,.works-header h1{
+    position: relative;
+    font-size: 5.5rem;opacity: 0.18;
+    color: rgba(255, 255, 255, 0.646)
+
+}
+.about-header h2,.contact-header h2,.works-header h2{
+    position: absolute; 
+    margin-left: 510px;
+    margin-top: -70px;font-size: 2.5rem;
+
+}
+
+h2 strong{
+    color: #10c82fcb;
+} 
+
+.about{
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about ol, ul{
+    list-style-type: none;
+}
+
+.about-list li{
+    margin: 30px;
+    font-size: 0.9rem;
+    line-height: 1px;
+}
+
+nav li{
+    margin: 20px;
+}
+
+.nav{
+    margin-top: -59px;
+    margin-left: 17px;
+    transition: ease all 500ms;
+}
+
+
+.about .container,.about-list{
+    display: flex;
+    font-size: 1rem;
+    font-weight: lighter;
+    
+}
+
+.about-list{
+    margin-left: 20px;
+    
+}
+
+.about .container{
+    margin-top: -15px;
+    margin-left: 45px;
+}
+        .stats{
+            margin-left: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 320px;
+            margin-top: -20px;
+            justify-content:space-evenly;
+            height: 45vh;
+        }
+
+        
+a i{
+    font-size: 0.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.75em;
+    border: 0;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.187);
+}
+
+        .about-list{
+            color: rgba(255, 255, 255, 0.612);
+        }
+
+        .stats1{
+            border: 2px solid rgba(0, 128, 0, 0.29);
+            width: 150px;
+            height: 110px;
+        }
+
+        .statsH{
+            margin-top: 6px;
+            font-size: 2rem;
+            margin-left: 20px;
+            color: rgb(37, 173, 37);
+        }
+
+        .about-list{
+            font-size: 1rem;
+           
+        }
+
+        p{
+            font-size: 1rem;
+        }
+
+        .stats p{
+        margin-left: 20px;
+      }
+
+         .about button{
+          width: 150px;
+          margin-left: 20px;
+          margin-top: 13px;
+       }
+
+      
+    li strong{
+        color: white;
+        font-weight: lighter;
+      
+        
+    }
+
+    button, input[type="submit"]{
+    text-align: center; 
+    margin-top: 50px;
+    width: 130px;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    background: #00000099;
+    border: 3px solid #15a32d;
+    padding: 10px 23px;
+    border-radius: 9999px;
+    animation: button cubic-bezier(0.280, 0.840, 0.420, 1);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+@keyframes button {
+0%   { transform: scale(1,1)      translateY(0); }
+10%  { transform: scale(1.1,.9)   translateY(0); }
+30%  { transform: scale(.9,1.1)   translateY(-20px); }
+50%  { transform: scale(1.05,.95) translateY(0); }
+57%  { transform: scale(1,1)      translateY(-7px); }
+64%  { transform: scale(1,1)      translateY(0); }
+100% { transform: scale(1,1)      translateY(0); }
+}
+
+
+         li i:hover{
+            background-color: #15a32d;
+            color: white;
+         }
+
+         .nav:hover{
+            margin-top: -80px;
+         }
+
+         button:hover{
+            animation: none;
+            background-color: #15a32d;
+         }
+
+
+    </style>
+</head>
+<body>
+    <section class="about">
+        <header class="about-header">
+            <h1>RESU<strong>ME</strong></h1>
+            <h2>ABOUT <strong>ME</strong></h2>
+        </header> 
+        <h2 style="margin-left: 105px; font-size: 2rem;">PERSONAL INFOS</h2>
+        <div class="container">
+           
+            <article class="about-list">
+            <ol>
+                <li>First Name: <strong>Ekene</strong></li>
+                <li>Last Name: <strong>Ogbuanu</strong></li>
+                <li>Age: <strong>20 Years</strong> </li>
+                <li>Nationality: <strong>Nigerian</strong> </li>
+                <li>Freelance: <strong>Available</strong> </li>
+                <button>DOWNLOAD CV</button>
+            </ol>
+
+            <ul>
+                <li>Address: <strong>Lagos,Nigeria</strong> </li>
+                <li>Phone: <strong>+2348160601064</strong> </li>
+                <li>Email: <strong>oechristophers2023@gmail.com</strong> </li>
+                <li>Zoom: <strong>Ekene.Ogbuanu</strong> </li>
+                <li>Languages: <strong>English,Igbo,Yoruba,Japanese</strong> </li>
+            </ul> 
+        </article>
+
+        <article class="stats">
+            <section class="stats1">
+                <h1 class="statsH">4<sup>+</sup></h1>
+                <p>&#8212 YEARS OF EXPERIENCE</p>
+            </section>
+            <section class="stats1">
+                <h1 class="statsH">57<sup>+</sup></h1>
+                <p>&#8212 COMPLETED PROJECTS</p>
+            </section>
+            <section class="stats1">
+                <h1 class="statsH">41<sup>+</sup></h1>
+                <p>&#8212 HAPPY CUSTOMERS</p>
+            </section>
+            <section class="stats1">
+                <h1 class="statsH">10<sup>+</sup></h1>
+                <p style="width: 11ch;">&#8212 AWARDS WON</p>
+            </section>
+        </article>  
+        <div  class="nav">
+            <nav>
+                <ol style="list-style-type: none; ">
+                    <li><a href="./index.html" >
+                        <i class="fa-solid fa-house-chimney"></i></a></li>
+                    <li><a href="./Portabout.htm">
+                        <i class="fa-solid fa-user"></i>
+                    </a></li>
+                    <li><a href="./Portworks.htm">
+                        <i class="fa-solid fa-briefcase" ></i>
+                    </a></li>
+                    <li><a href="./Portcontact.htm">
+                        <i class="fa-solid fa-envelope-open"></i>
+                    </a></li>
+                    <li><a href="./Portblog.htm">
+                        <i class="fa-solid fa-comments" ></i>
+                    </a></li>
+                   
+                </ol>
+            </nav>
+         </div>
+
+
+        </div>
+
+      
+
+     </section>
+</body>
+</html>

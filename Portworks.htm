@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/brands.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/solid.css">
+    <link rel="stylesheet" href="../Assets/icons/Fawesome/css/fontawesome.css">
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+  background: linear-gradient(to right,#15a32d, black 20% );
+  width: 100%;
+  font-family: monospace ;
+  color: white;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+header,main,.container{
+    border: 2px red;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+       
+a i{
+    font-size: 0.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 0.75em;
+    border: 0;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.187);
+}
+
+.works-header{
+    text-align: center; width: 100%; margin-left: 20px;
+    font-family:  'Courier New', Courier, monospace
+}
+
+ h1 strong{
+   color: rgba(255, 255, 255, 0.671)
+}
+
+
+.works-header h1{
+    position: relative;
+    font-size: 5.5rem;opacity: 0.18;
+    color: rgba(255, 255, 255, 0.646)
+
+}
+.works-header h2{
+    position: absolute; 
+    margin-left: 510px;
+    margin-top: -70px;font-size: 2.5rem;
+
+}
+
+h2 strong{
+    color: #10c82fcb;
+} 
+
+.works-header h1{
+    font-size: 6rem;
+ }
+ .works-header h2{
+    font-size: 2.2rem;
+    margin-left: 485px;
+ }
+
+ .container-cards{
+    display: flex;
+    justify-content: stretch;
+    height:auto;
+    flex-wrap: wrap;
+    margin-left: 160px;
+    
+    
+   }
+
+   .card{
+    flex: 0 0 21vw;
+    height: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    background-color: #6b5245c9;
+    background-size: cover;
+    margin: 10px;
+    position: relative;
+   }
+
+   main{
+    margin-top: -50px;
+    display: flex;
+   }
+
+   .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: #00000099;
+    overflow: hidden;
+    transition: .5s ease;
+    height: 159px;
+    opacity: 0;
+    width: 200px;
+    margin-top: -4px;
+    text-align: center;
+   }
+
+   .overlay h1{
+   font-size: 1.2rem;
+   word-spacing: -10px;
+   padding-top: 70px;
+   padding-right:30px;
+   font-family: 'Courier New', Courier, monospace;
+   }
+
+   .overlay:hover{
+    opacity: 0.9;
+    width: 268px;
+    background-color: #1ec73a49;
+   }
+   
+     
+   .card img{
+    height: 100%;
+    width: 100%;
+    display: block;
+   }
+
+   
+   
+   nav li{
+    margin: 20px;
+  }
+
+.nav{
+    margin-top: -5px;
+    margin-right: 60px;
+    transition: ease all 500ms;
+}
+
+   .nav:hover{
+            margin-top: -30px;
+         }
+
+         li i:hover{
+            background-color: #15a32d;
+            color: white;
+         }
+
+       
+
+
+
+
+    </style>
+</head>
+<body>
+    <section class="works">
+        <header class="works-header">
+            <h1>Works</h1>
+            <h2>My <strong>Portfolio</strong></h2>
+        </header>
+
+        <main class="flex-cards">
+            <div class="container-cards">
+                <article class="card">
+                    <img src="./portfolio/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Galaxies</h1>
+                    </article>
+                    
+                </article>
+                <article class="card">
+                    <img src="./Assets/image/Wallpaper.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Aesthetics</h1>
+                    </article>
+        
+                </article>
+                <article class="card">
+                    <img src="./portfolio/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Space</h1>
+                    </article>
+        
+                </article>
+                <article class="card">
+                    <img src="./Assets/image/roman-synkevych-vXInUOv1n84-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Code Space</h1>
+                    </article>
+        
+                </article>
+                <article class="card">
+                    <img src="./Assets/image/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Code Camp</h1>
+                    </article>
+        
+                </article>
+                <article class="card">
+                    <img src="./portfolio/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Marathon</h1>
+                    </article>
+                </article>
+                <article class="card">
+                    <img src="./Assets/image/david-schultz-SrewPUfo2c0-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Code Camp</h1>
+                    </article>
+        
+                </article>
+                <article class="card">
+                    <img src="./Assets/image/namnso-ukpanah-6UqJTfoXIq8-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>ExploreAfrica.com</h1>
+                    </article>
+        
+                </article>
+                <article class="card">
+                    <img src="./Assets/image/markus-spiske-iar-afB0QQw-unsplash.jpg" alt=""> 
+                    <article class="overlay">
+                    <h1>Strings</h1>
+                    </article>
+            </div>
+
+            <div class="nav">
+                <nav>
+                    <ol style="list-style-type: none; ">
+                        <li><a href="./index.html">
+                            <i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="./Portabout.htm" >
+                            <i class="fa-solid fa-user"></i>
+                        </a></li>
+                        <li><a href="./Portworks.htm">
+                            <i class="fa-solid fa-briefcase" ></i>
+                        </a></li>
+                        <li><a href="./Portcontact.htm">
+                            <i class="fa-solid fa-envelope-open"></i>
+                        </a></li>
+                        <li><a href="./Portblog.htm">
+                            <i class="fa-solid fa-comments" ></i>
+                        </a></li>
+                       
+                    </ol>
+                </nav>
+             </div>
+        </main>
+     </section>
+</body>
+</html>
