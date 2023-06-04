@@ -9,226 +9,321 @@
     <link rel="stylesheet" href="../Assets/icons/Fawesome/css/solid.css">
     <link rel="stylesheet" href="../Assets/icons/Fawesome/css/fontawesome.css">
     <style>
-        *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body{
-  background: linear-gradient(to right,#15a32d, black 30% );
-  width: 100%;
-  overflow-x: hidden;
-  font-family: monospace ;
-  color: white;
-}
-
-header,main,.container{
-    border: 2px red;
-    font-size: 1.5rem;
-    margin: 1em;
-    padding: 1em;
-}
-
-img{
-    height: 60vh;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a i{
-    font-size: 0.8rem;
-    width: 2.3rem;
-    height: 2.3rem;
-    border-radius: 1.25rem;
-    text-align: center;
-    padding: 0.75em;
-    border: 0;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.187);
-}
-
-.about-header,.contact-header,.works-header{
-    text-align: center; width: 100%; margin-left: 20px;
-    font-family:  'Courier New', Courier, monospace
-}
-
- h1 strong{
-   color: rgba(255, 255, 255, 0.671)
-}
-
-.contact-header h2{
-    margin-left: 485px;
-
-   }
-   .contact-header h1{
-    font-size: 5rem;
-    margin-left: -10px;
-
-   }
-   .contact{
-    height: 100vh;
-   }
-
-   .contact-container{
-    display: flex; 
-    margin-left: 145px;
-    margin-top: -50px;
-   }
-
-   .contact p{
-    width: 40ch;
-    color: white; 
-    font-size: 0.8rem;
-   }
-
-   .left-con h2{
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-
-   }
-
-    form input[type="email"],[type="text"],[type="subject"]{
-       background-color: rgba(38, 37, 37, 0.71);
-       border: 1px solid rgba(0, 0, 0, 0.2);
-       width: 150px;
-       border-radius: 15px;
-       height: 30px;
-       margin-left: 20px;
-      
-
-      }
-
-
-      textarea{
-         background-color: rgba(38, 37, 37, 0.71);
-       border: 1px solid rgba(0, 0, 0, 0.2);
-       width: 540px;
-       border-radius: 15px;
-       height: 150px;
-       margin-top: 20px;
-       color:#0000007a
-      }
-
-      form{
-         display: flex;
-         flex-wrap: wrap;
-         width: 550px;
-         margin-top: 30px;
-         margin-left: 20px;
-      }
-
-       form input[type="submit"] {
-       color: #fff;
-    }
-
-    p i{
-    font-size: 1rem;
-    width: 2rem;
-    height: 2rem;
-    border: 2px solid;
-    border-radius: 1.25rem;
-    text-align: center;
-    padding: 0.4em;
-    color: black;
-    background-color: white;
-}
-
-    .social-leftcon ol{
-        list-style-type: none;
-         display: flex;
-         margin-top: 10px;
-    }
-
-    .social-leftcon ol i{
-    font-size: 1rem;
-    width: 2rem;
-    height: 2rem;
-    border: 1px solid;
-    margin-left: -15px;
-    border-radius: 1.25rem;
-    text-align: center;
-    padding: 0.4em;
-    color: black;
-    background-color: white;
-    }
-
-    .left-con{
-        margin-left: -20px;
-    }
-
-    .right-con{
-        margin-left: 30px;
-    }
-
- 
-
-
-.about-header h1,.contact-header h1,.works-header h1{
-    position: relative;
-    font-size: 5.5rem;opacity: 0.18;
-    color: rgba(255, 255, 255, 0.646)
-
-}
-.about-header h2,.contact-header h2,.works-header h2{
-    position: absolute; 
-    margin-left: 510px;
-    margin-top: -70px;font-size: 2.5rem;
-
-}
-
-h2 strong{
-    color: #10c82fcb;
-} 
-
-button, input[type="submit"]{
-    text-align: center; 
-    margin-top: 50px;
-    width: 130px;
-    font-size: 15px;
-    font-family: monospace;
-    color: white;
-    background: #00000099;
-    border: 3px solid #15a32d;
-    padding: 10px 23px;
-    border-radius: 9999px;
-    animation: button cubic-bezier(0.280, 0.840, 0.420, 1);
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
-}
-@keyframes button {
-0%   { transform: scale(1,1)      translateY(0); }
-10%  { transform: scale(1.1,.9)   translateY(0); }
-30%  { transform: scale(.9,1.1)   translateY(-20px); }
-50%  { transform: scale(1.05,.95) translateY(0); }
-57%  { transform: scale(1,1)      translateY(-7px); }
-64%  { transform: scale(1,1)      translateY(0); }
-100% { transform: scale(1,1)      translateY(0); }
-}
-
-nav li{
-    margin: 20px;
-  }
-
-.nav{
-    margin-top: -5px;
-    margin-left:25px;
-    transition: ease all 500ms;
-}
-
-   .nav:hover{
-            margin-top: -30px;
-         }
-
-         li i:hover{
-            background-color: #15a32d;
+        body {
+            background: linear-gradient(to right, #15a32d, black 30%);
+            width: 100%;
+            overflow-x: hidden;
+            font-family: monospace;
             color: white;
-         }
+        }
+
+        header,
+        main,
+        .container {
+            border: 2px red;
+            font-size: 1.5rem;
+            margin: 1em;
+            padding: 1em;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a i {
+            font-size: 0.8rem;
+            width: 2.3rem;
+            height: 2.3rem;
+            border-radius: 1.25rem;
+            text-align: center;
+            padding: 0.75em;
+            border: 0;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.187);
+        }
+
+        
+        .contact-header{
+            text-align: center;
+            margin-left: 20px;
+            font-family: 'Courier New', Courier, monospace
+        }
+
+        h1 strong {
+            color: rgba(255, 255, 255, 0.671)
+        }
+
+       
+        #hh1 {
+            position: relative;
+            font-size: 4.5rem;
+            opacity: 0.18;
+            margin-left: -10px;
+            color: rgba(255, 255, 255, 0.646)
+        }
+
+        
+        #hh2 {
+            position: absolute;
+            font-size: 2.5rem; 
+            width: 94vw;
+            margin-top: -95px;
+        }
+
+        #hh2 h2{
+            text-align: center;
+        }
+
+        .contact {
+            height: 100vh;
+        }
+
+        .contact-container {
+            display: flex;
+            margin-left: 145px;
+            margin-top: -50px;
+            flex-wrap: wrap;
+        }
+
+        .contact p {
+            width: 40ch;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        .left-con h2 {
+            font-size: 1.5rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        form input[type="email"],
+        [type="text"],
+        [type="subject"] {
+            background-color: rgba(38, 37, 37, 0.71);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 9rem;
+            color: #fff;
+            border-radius: 15px;
+            height: 1.8rem;
+            margin-left: 20px;
+        }
+
+        textarea {
+            background-color: rgba(38, 37, 37, 0.71);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 33rem;
+            border-radius: 15px;
+            height: 9rem;
+            margin-top: 20px;
+            color: white
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            width: 33rem;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        form input[type="submit"] {
+            color: #fff;
+        }
+
+        p i {
+            font-size: 1rem;
+            width: 2rem;
+            height: 2rem;
+            border: 2px solid;
+            border-radius: 1.25rem;
+            text-align: center;
+            padding: 0.4em;
+            color: black;
+            background-color: white;
+        }
+
+        .social-leftcon ol {
+            list-style-type: none;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .social-leftcon ol i {
+            font-size: 1rem;
+            width: 2rem;
+            height: 2rem;
+            border: 1px solid;
+            margin-left: -15px;
+            border-radius: 1.25rem;
+            text-align: center;
+            padding: 0.4em;
+            color: black;
+            background-color: white;
+        }
+
+        .left-con {
+            margin-left: -20px;
+        }
+
+        .left-con a:hover{
+            color: #13cf33;
+        }
+
+        .right-con {
+            margin-left: 30px;
+        }
+
+        
+       
+
+        h2 strong {
+            color: #10c82fcb;
+        }
+
+        button,
+        input[type="submit"] {
+            text-align: center;
+            margin-top: 50px;
+            width: 7.8rem;
+            font-size: 0.9rem;
+            font-family: monospace;
+            color: white;
+            background: #00000099;
+            border: 3px solid #15a32d;
+            padding: 10px 23px;
+            border-radius: 9999px;
+            animation: button cubic-bezier(0.280, 0.840, 0.420, 1);
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transform-origin: bottom;
+        }
+
+        @keyframes button {
+            0% {
+                transform: scale(1, 1) translateY(0);
+            }
+
+            10% {
+                transform: scale(1.1, .9) translateY(0);
+            }
+
+            30% {
+                transform: scale(.9, 1.1) translateY(-20px);
+            }
+
+            50% {
+                transform: scale(1.05, .95) translateY(0);
+            }
+
+            57% {
+                transform: scale(1, 1) translateY(-7px);
+            }
+
+            64% {
+                transform: scale(1, 1) translateY(0);
+            }
+
+            100% {
+                transform: scale(1, 1) translateY(0);
+            }
+        }
+
+        nav li {
+            margin: 20px;
+        }
+
+        .nav {
+            margin-top: -5px;
+            margin-left: 25px;
+            transition: ease all 500ms;
+        }
+
+        .nav:hover {
+            margin-top: -30px;
+        }
+
+        li i:hover {
+            background-color: #15a32d;
+        }
+
+        /* Media Query */
+        @media (max-width: 1158px){
+            .nav ol{
+                display: flex;
+            }
+        }
+        @media (max-width: 1056px) {
+            .right-con{
+                margin-left: -60px;
+            } 
+        }
+
+        @media (max-width: 670px) {
+            .contact{
+                margin-left: -80px;
+            }
+
+            form{
+                margin-left: -20px;
+            }
+
+            .nav{
+                margin-left: -70px;
+            }
+
+           
+        }
+            
+            
+
+        @media (max-width: 560px){
+            form{
+                width: 25rem;
+
+            }
+
+            #hh1{
+                font-size:3rem;
+            }
+
+            #hh2{
+                font-size: 1.5rem;
+                margin-top: -60px;
+            }
+        }
+
+        @media (max-width: 420px){
+            form{
+                width: 20rem;
+
+            }
+
+            .left-con{
+                margin-left: -50px;
+            }
+
+            .contact-header{
+                margin-left: 60px;
+            }
+
+            #hh1,  #hh2{
+                margin-left: 15px;
+            }
+
+            .nav li{
+                margin: 10px;
+            }
+        }
+
+
+        
 
 
     </style>
@@ -236,8 +331,12 @@ nav li{
 <body>
     <section class="contact">
         <header class="contact-header">
+            <div id="hh1">
             <h1>CON<strong>TACT</strong></h1>
+        </div>
+             <div id="hh2">
             <h2>REACH <strong>OUT</strong></h2>
+        </div>
         </header>
 
         <main class="contact-container">
@@ -246,10 +345,10 @@ nav li{
                 <P style="color: #fafcffc0;"> Feel free to get in touch with me for new project discussions,creative ideas, and any opportunities to be a part of your vision</P>
 
                 <p style="line-height: 0; margin-top: 20px;color: #fafcffa4;"><i class="fa-regular fa-envelope-open" style="background: transparent; border: 0; color: rgb(18, 213, 18);"></i> Mail me</p>
-               <p style="line-height: 0;font-weight: 800;">&nbsp;&nbsp;&nbsp; oechristophers2020@gmail.com</p>  
+               <p style="line-height: 0;font-weight: 800;">&nbsp;&nbsp;&nbsp; <a href="mailto:oechristophers2020@gmail.com"> oechristophers2020@gmail.com</a></p>  
                
                <p style="line-height: 0;margin-top: 20px;color: #fafcffa4;"><i class="fa-regular fa-square-phone"style="background: transparent; border: 0; color: rgb(18, 213, 18);"></i>Call me</p>
-               <p style="line-height: 0;font-weight: 800;">&nbsp;&nbsp;&nbsp; +234 816-060-1064</p> 
+               <p style="line-height: 0;font-weight: 800;">&nbsp;&nbsp;&nbsp; <a href="tel:+2348160601064">+234 816-060-1064</a></p> 
 
                <nav class="social-leftcon">
                 <ol>
